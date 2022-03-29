@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>This is for register</title>
+   <base href="http://localhost:8080/WebPages_Model/">
+
+  <link rel="stylesheet" href="pages/css/StyleForRegister.css" >
+</head>
+<body>
+  <h1>SIMPLE LOGIN FORM</h1>
+  <div class="container w3">
+    <h2>Login Now</h2>
+      <form action="registServlet" method="post">
+      <div class="username">
+        <span class="username">Username:</span>
+        <input type="text" name="name" class="name" placeholder="" required="">
+        <div class="clear"></div>
+      </div>
+      <div class="password-agileits">
+        <span class="username">Password:</span>
+        <input type="password" name="password" class="password" placeholder="" required="">
+        <div class="clear"></div>
+      </div>
+      <div class="password-confirm">
+        <span class="username">Confirm:</span>
+        <input type="password" name="password" class="password" placeholder="" required="">
+        <div class="clear"></div>
+      </div>
+        <div class="email">
+          <span class="username">Email:</span>
+          <input type="email" name="email" class="email" placeholder="" required="">
+          <div class="clear"></div>
+        </div>
+      <div class="rem-for-agile">
+        <input type="checkbox" name="remember" class="remember">Remember me<br>
+        <a href="#">Forgot Password</a><br>
+      </div>
+
+    <div class="register">
+        <input type="submit" class="register" value="register">
+    </div>
+      <div class="clear"></div>
+</form>
+</div>
+</body>
+</html>
